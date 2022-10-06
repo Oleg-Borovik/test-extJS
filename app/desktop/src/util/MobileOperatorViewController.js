@@ -7,12 +7,5 @@ Ext.define('ModernApp.util.MobileOperatorViewController', {
         Ext.Msg.confirm(
             `Изменить данные на: Мобильный оператор - ${name}, его цена - ${prise}, 
             минимальный обязательный платеж - ${min}`, 'Изменить', this);
-    },
-    addRow: function(rowEditing, context) {
-        console.log('klic')
-        // Canceling editing of a locally added, unsaved record: remove it
-        if (context.record.phantom) {
-            store.remove(context.record);
-        }
     }
 });

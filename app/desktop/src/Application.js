@@ -2,7 +2,7 @@ Ext.define('ModernApp.Application', {
 	extend: 'Ext.app.Application',
 	name: 'ModernApp',
 	requires: ['ModernApp.*'],
-	defaultToken: 'homeview',
+	defaultToken: 'mobilecontainer',
 
 	removeSplash: function () {
 		Ext.getBody().removeCls('launching')

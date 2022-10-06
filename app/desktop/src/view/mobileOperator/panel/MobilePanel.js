@@ -23,13 +23,10 @@ Ext.define('ModernApp.view.mobileOperator.panel.MobilePanel', {
             xtype: 'button',
             text: 'Удалить',
             docked: 'left',
-            // bind: {height: '{headerview_height}', width: 30},
-            // listeners: {
-            //     click: function () { // аналогичен функции в параметре handler
-            //         // this в данном случае хранит ссылку на текущую кнопку
-            //         this.setText('Привет мир');
-            //     },
-            // }
+            handler: 'deleteSelectedRow',
+            bind:{
+
+            }
         },
     ],
 
