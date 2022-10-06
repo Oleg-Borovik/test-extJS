@@ -15,6 +15,5 @@ Ext.define('ModernApp.view.main.nav.NavView', {
                 selectionchange: "onMenuViewSelectionChange"
             }
         }
-    ],
-    bbar: {xtype: 'bottomview', bind: {height: '{bottomview_height}'}}
+    ]
 });

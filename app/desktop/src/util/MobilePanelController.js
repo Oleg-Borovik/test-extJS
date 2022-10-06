@@ -9,7 +9,6 @@ Ext.define('ModernApp.util.MobilePanelController', {
         let store = Ext.getStore('mobileStore');
         // debugger
         store.insert(0, rec);
-        // Ext.lookup('mobileoperatorview').getView().findPlugin('rowediting').startEdit(rec);
     },
 
     deleteSelectedRow: function () {

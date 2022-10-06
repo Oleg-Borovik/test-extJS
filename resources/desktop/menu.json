@@ -1,7 +1,6 @@
 {
   "leaf": true,
   "children": [
-    { "text": "Home", "iconCls": "x-fa fa-home", "xtype": "homeview", "leaf": true },
     { "text": "Mobile", "iconCls": "x-fa fa-home", "xtype": "mobilecontainer","leaf": true }
   ]
 }
