@@ -1,4 +1,4 @@
-Ext.define('ModernApp.view.mobileOperator.MobileOperatorViewController', {
+Ext.define('ModernApp.util.MobileOperatorViewController', {
     extend: 'Ext.app.ViewController',
     alias: 'controller.mobileoperatorviewcontroller',
 
@@ -8,7 +8,8 @@ Ext.define('ModernApp.view.mobileOperator.MobileOperatorViewController', {
             `Изменить данные на: Мобильный оператор - ${name}, его цена - ${prise}, 
             минимальный обязательный платеж - ${min}`, 'Изменить', this);
     },
-    cancelEdit: function(rowEditing, context) {
+    addRow: function(rowEditing, context) {
+        console.log('klic')
         // Canceling editing of a locally added, unsaved record: remove it
         if (context.record.phantom) {
             store.remove(context.record);

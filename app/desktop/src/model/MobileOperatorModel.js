@@ -1,9 +1,7 @@
-Ext.define('ModernApp.view.mobileOperator.MobileOperatorViewModel', {
+Ext.define('ModernApp.model.MobileOperatorModel', {
     extend: 'Ext.app.ViewModel',
-    alias: 'viewmodel.mobileoperatorviewmodel',
-    data: {
-        name: 'ModernApp'
-    },
+    alias: 'viewmodel.mobileoperatormodel',
+
     fields: [
         {name: 'name', type: 'string'},
         {name: 'prise', type: 'float'},

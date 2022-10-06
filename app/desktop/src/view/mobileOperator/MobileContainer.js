@@ -2,9 +2,9 @@ Ext.define('ModernApp.view.mobileOperator.MobileContainer', {
     extend: 'Ext.Container',
     xtype: 'mobilecontainer',
     controller: 'mobileoperatorviewcontroller',
-    viewModel: {
-        type: 'mainviewmodel'
-    },
+    // viewModel: {
+    //     type: 'mainviewmodel'
+    // },
     requires: [
         'Ext.layout.HBox'
     ],

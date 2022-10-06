@@ -1,25 +1,36 @@
 Ext.define('ModernApp.view.mobileOperator.panel.MobilePanel', {
-    extend: 'Ext.Container',
+    extend: 'Ext.Panel',
     xtype: 'mobilepanel',
     cls: 'mobilepanel',
-    viewModel: {type: 'mobilepanel'},
-    controller: {type: 'mobileoperatorviewcontroller'},
+    controller: 'mobilepanelcontroller',
+    viewModel: {},
     layout: {
         type: 'fit'
     },
     items: [
         {
             xtype: 'button',
+            reference: 'button',
             text: 'Добавить',
             docked: 'left',
-            bind: {height: '{headerview_height}', width: 30},
-            listeners: {add: 'addRow'}
+            // listeners: {
+            //     click: 'addRow'
+            // },
+            handler: 'addRow'
+
         },
         {
             xtype: 'button',
             text: 'Удалить',
             docked: 'left',
-            bind: {height: '{headerview_height}', width: 30}
+            // bind: {height: '{headerview_height}', width: 30},
+            // listeners: {
+            //     click: function () { // аналогичен функции в параметре handler
+            //         // this в данном случае хранит ссылку на текущую кнопку
+            //         this.setText('Привет мир');
+            //     },
+            // }
         },
     ],
+
 });

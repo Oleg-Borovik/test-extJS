@@ -1,7 +1,7 @@
-Ext.define('ModernApp.view.mobileOperator.MobileOperatorViewStore', {
+Ext.define('ModernApp.store.MobileOperatorViewStore', {
     extend: 'Ext.data.Store',
     alias: 'store.mobileoperatorviewstore',
-
+    // model: 'mobileoperatormodel',
     data: {
         items: [
             {name: 'MTS++', prise: "200", min: "1"},
