@@ -1,4 +1,4 @@
-Ext.define('ModernApp.view.main.MainViewController', {
+Ext.define('ModernApp.util.main.MainViewController', {
 	extend: 'Ext.app.ViewController',
 	alias: 'controller.mainviewcontroller',
 

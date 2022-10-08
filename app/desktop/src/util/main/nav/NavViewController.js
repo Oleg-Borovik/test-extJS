@@ -1,4 +1,4 @@
-Ext.define('ModernApp.view.main.nav.NavViewController', {
+Ext.define('ModernApp.util.main.nav.NavViewController', {
 	extend: "Ext.app.ViewController",
 	alias: "controller.navviewcontroller",
 

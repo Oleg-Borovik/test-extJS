@@ -5,7 +5,7 @@ Ext.define('ModernApp.view.mobileOperator.MobileOperatorView',{
     requires: ['Ext.grid.rowedit.Plugin'],
     // controller: {type: 'mobileoperatorviewcontroller'},
     // viewModel: {type: 'mobileoperatormodel'},
-    store: {type: 'mobileoperatorviewstore'},
+    store: {type: 'mobileoperatorstore'},
     grouped: true,
     id: 'mobileTable',
     groupFooter: {

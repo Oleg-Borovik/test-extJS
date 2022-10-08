@@ -1,6 +1,6 @@
-Ext.define('ModernApp.store.MobileOperatorViewStore', {
+Ext.define('ModernApp.store.MobileOperatorStore', {
     extend: 'Ext.data.Store',
-    alias: 'store.mobileoperatorviewstore',
+    alias: 'store.mobileoperatorstore',
     model: 'ModernApp.model.MobileOperatorModel',
     storeId: 'mobileStore',
     // data: [
