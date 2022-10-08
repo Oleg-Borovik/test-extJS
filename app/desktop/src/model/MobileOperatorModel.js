@@ -7,4 +7,18 @@ Ext.define('ModernApp.model.MobileOperatorModel', {
         {name: 'prise', type: 'float'},
         {name: 'min', type: 'int'},
     ],
+    // stores: {
+    //     menu: {
+    //         type: "tree",
+    //         proxy: {
+    //             type: 'ajax',
+    //             reader: {
+    //                 type: 'json',
+    //                 rootProperty: 'items'
+    //             },
+    //             url: 'resources/items/mobile.json'
+    //         },
+    //         autoLoad: true
+    //     }
+    // }
 });

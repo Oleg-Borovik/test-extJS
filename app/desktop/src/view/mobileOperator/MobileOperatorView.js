@@ -3,7 +3,7 @@ Ext.define('ModernApp.view.mobileOperator.MobileOperatorView',{
     xtype: 'mobileoperatorview',
     cls: 'mobileoperatorview',
     requires: ['Ext.grid.rowedit.Plugin'],
-    controller: {type: 'mobileoperatorviewcontroller'},
+    // controller: {type: 'mobileoperatorviewcontroller'},
     // viewModel: {type: 'mobileoperatormodel'},
     store: {type: 'mobileoperatorviewstore'},
     grouped: true,
@@ -34,8 +34,4 @@ Ext.define('ModernApp.view.mobileOperator.MobileOperatorView',{
 
     ],
 
-    listeners: {
-        cancelEdit: 'onEditCancelled',
-
-    }
 });

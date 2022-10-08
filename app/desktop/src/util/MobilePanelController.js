@@ -11,6 +11,7 @@ Ext.define('ModernApp.util.MobilePanelController', {
         store.insert(0, rec);
     },
 
+
     deleteSelectedRow: function () {
         var selection = Ext.getCmp('mobileTable').getSelection();
         // debugger

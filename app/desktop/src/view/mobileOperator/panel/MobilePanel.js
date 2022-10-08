@@ -13,9 +13,7 @@ Ext.define('ModernApp.view.mobileOperator.panel.MobilePanel', {
             reference: 'button',
             text: 'Добавить',
             docked: 'left',
-            // listeners: {
-            //     click: 'addRow'
-            // },
+            ui: 'confirm',
             handler: 'addRow'
 
         },
@@ -24,9 +22,7 @@ Ext.define('ModernApp.view.mobileOperator.panel.MobilePanel', {
             text: 'Удалить',
             docked: 'left',
             handler: 'deleteSelectedRow',
-            bind:{
-
-            }
+            ui: 'decline'
         },
     ],
 
