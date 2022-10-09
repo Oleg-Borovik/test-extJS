@@ -1,20 +1,17 @@
-Ext.define('ModernApp.util.MobilePanelController', {
+Ext.define('ModernApp.util.mobileOperator.MobilePanelController', {
     extend: 'Ext.app.ViewController',
     alias: 'controller.mobilepanelcontroller',
     store: 'mobileStore',
 
-    addRow: function() {
-        // Canceling editing of a locally added, unsaved record: remove it
-        const rec = Ext.create('model.mobileoperatormodel',{name: '', prise: 0, min: 0});
+    addRow: function () {
+        const rec = Ext.create('model.mobileoperatormodel', {name: '', prise: 0, min: 0});
         let store = Ext.getStore('mobileStore');
-        // debugger
         store.insert(0, rec);
     },
 
 
     deleteSelectedRow: function () {
-        var selection = Ext.getCmp('mobileTable').getSelection();
-        // debugger
+        let selection = Ext.getCmp('mobileTable').getSelection();
         if (selection) {
             let store = Ext.getStore('mobileStore');
             store.remove(selection);

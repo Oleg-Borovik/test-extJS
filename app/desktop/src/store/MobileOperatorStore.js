@@ -17,13 +17,6 @@ Ext.define('ModernApp.store.MobileOperatorStore', {
         reader: {
             type: 'json',
             rootProperty: 'items'
-            // type: 'json',
-            // reader: 'json',
-            // url: 'resources/desktop/menu.json'
-            // reader: {
-            //     type: 'json',
-            //     rootProperty: 'items'
-            // }
         }
     },
 });

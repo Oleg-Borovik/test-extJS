@@ -1,4 +1,4 @@
-Ext.define('ModernApp.view.mobileOperator.MobileOperatorView',{
+Ext.define('ModernApp.view.mobileOperator.MobileOperatorView', {
     extend: 'Ext.grid.Grid',
     xtype: 'mobileoperatorview',
     cls: 'mobileoperatorview',
@@ -24,7 +24,7 @@ Ext.define('ModernApp.view.mobileOperator.MobileOperatorView',{
             width: 100,
             cell: {userCls: 'bold'}
         },
-        {text: 'Стоимость подключения',dataIndex: 'prise',editable: true, width: 200},
+        {text: 'Стоимость подключения', dataIndex: 'prise', editable: true, width: 200},
         {
             text: 'Минимальный обязательный платеж',
             dataIndex: 'min',
